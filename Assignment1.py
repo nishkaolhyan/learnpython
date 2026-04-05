@@ -1,7 +1,9 @@
-# Q3. Ask the user to enter two integers and one float. Convert them all to floats and print their average.
-num1=int(input("Enter num1"))
-num2=float(input("Enter num2"))
-num1=float(num1)
-num2=float(num2)
-print((num1+num2)/2)
-
+# Q4. The user enters a string containing a number(e.g."45").Convert it to: a)an integer b)float c) a string again
+#a)an integer
+num=input("Enter a number")
+num_int=int(num)
+num_float=float(num)
+num_str=str(num)
+print("The integer value is-",num_int,"& it's type is-",type(num_int))
+print("The float value is-",num_float,"& it's type is-",type(num_float))
+print("The string value is-",num_str,"& it's type is-",type(num_str))
