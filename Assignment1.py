@@ -1,9 +1,10 @@
-# Q4. The user enters a string containing a number(e.g."45").Convert it to: a)an integer b)float c) a string again
-#a)an integer
-num=input("Enter a number")
-num_int=int(num)
-num_float=float(num)
-num_str=str(num)
-print("The integer value is-",num_int,"& it's type is-",type(num_int))
-print("The float value is-",num_float,"& it's type is-",type(num_float))
-print("The string value is-",num_str,"& it's type is-",type(num_str))
+''' Q4. Evaluate and print the result of the following expression-
+x=10+3*2**2'''
+
+'''Ans) As I have learnt from operator precedence-
+1. first comes power so 2**2=4
+2. then comes multiplication so 3*4=12
+3. then 10+12=22'''
+
+x=10+3*2**2
+print(x)
