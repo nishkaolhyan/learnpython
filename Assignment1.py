@@ -1,4 +1,4 @@
-''' Q4. Evaluate and print the result of the following expression-
+''' Q5. Evaluate and print the result of the following expression-
 x=10+3*2**2'''
 
 '''Ans) As I have learnt from operator precedence-
