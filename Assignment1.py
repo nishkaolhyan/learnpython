@@ -1,7 +1,7 @@
-# Q2. Take two numbers as input from the user and print their-sum,difference,product,and quotient
-num1=int(input("enter number 1-"))
-num2=int(input("enter number 2-"))
-print(num1+num2)
-print(num1-num2)
-print(num1*num2)
-print(num1/num2)
+# Q3. Ask the user to enter two integers and one float. Convert them all to floats and print their average.
+num1=int(input("Enter num1"))
+num2=float(input("Enter num2"))
+num1=float(num1)
+num2=float(num2)
+print((num1+num2)/2)
+
