@@ -1,10 +1,7 @@
-''' Q4. Evaluate and print the result of the following expression-
-x=10+3*2**2'''
-
-'''Ans) As I have learnt from operator precedence-
-1. first comes power so 2**2=4
-2. then comes multiplication so 3*4=12
-3. then 10+12=22'''
-
-x=10+3*2**2
-print(x)
+'''Q6. Write a program to swap values of two numbers entered by the user.'''
+num1=int(input("print number1-"))
+num2=int(input("print number2-"))
+swap=num1
+num1=num2
+num2=swap
+print(num1,num2)
