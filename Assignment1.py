@@ -1,6 +1,5 @@
-'''Q7. Ask the user for a temperature in Celsius (string input).Convert it to float then calculate and print temperature in Fahrenheit. Conversion Formula: Fahrenheit Temp=[C∗(9/5)]+32
-Here C= Celsius Temperature'''
-temp=input("enter temperature in Celsius-")
-C_temp=float(temp)
-F_temp=(C_temp*(9/5))+32
-print("Celsius temperature converted into Fahrenheit temperature is-",F_temp,"F")
+'''Q8. Take the radius() as user input and print the area. Use the formula: Area=π*r2 (value of π=3.14)'''
+r=int(input("tell radius-"))
+π=3.14
+Area=π*(r**2)
+print("The area calculated is-",Area,"unit sq.")
